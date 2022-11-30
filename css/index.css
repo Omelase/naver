@@ -1,14 +1,21 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'NanumSquareLight';
+font-family: 'NanumSquare';
+font-family: 'NanumSquareBold';
+font-family: 'NanumSquareExtraBold';
+font-family: 'NanumSquareAcb';
+font-family: 'NanumSquareAceb';
+font-family: 'NanumSquareAcl';
+font-family: 'NanumSquareAcr';
 }
 */
 
 
 body {
     border: 2px solid black;
-    margin: 0;
-    padding: 0;
     position: relative;
     min-height: 4723px;
   }
@@ -24,6 +31,144 @@ body {
 }
 
 #footer {
-    border: 1px solid black;
-    height: 100px;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 355px;
+    font-size: 0.7em;
+    background-color: rgb(245, 245, 245);
+}
+
+#foot_center {
+    position: absolute;
+    left:80mm;
+    width: 30cm;
+
+}
+
+.AD {
+    border-bottom: 1px solid gray;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.AD > .left {
+
+    float: left;
+    min-width: 33.33%;
+    position: relative;
+}
+
+.AD > .center {
+
+    float: left;
+    min-width: 33.33%;
+    position: relative;
+}
+
+.AD > .right {
+
+    float: right;
+    min-width: 33.33%;
+    position: relative;
+}
+
+.cmp {
+    width: 145px;
+    float: left;
+    margin-right: 15px;
+}
+
+.ad_main {
+    float: left;
+}
+
+.org {
+    color: rgb(4, 163, 4);
+    font-weight: bold;
+}
+
+.notice {
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.notice > #nt_left {
+    float: left;
+}
+
+.notice #nt_right {
+    float: right;
+}
+
+.aside {
+    border-bottom: 1px solid gray;
+    float: left;
+    width: 100%;
+    min-height: 90px;
+    position: relative;
+}
+
+.asd_left {
+    position: absolute;
+    top: 30%;
+}
+
+.asdl_title {
+    float: left;
+    padding-right: 15px;
+}
+
+.asdl_subs {
+    float: left;
+}
+
+.asd_right {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding-right: 10mm;
+    margin-top: 15px;
+}
+
+.asdr_1 {
+    position: relative;
+    float: left;
+    width: 30mm;
+}
+
+.asdr_2 {
+    position: relative;
+    float: left;
+    width: 30mm;
+}
+
+.rtts {
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.right-img > img {
+    width: 40px;
+    float: left;
+}
+
+.corp {
+    /* border-bottom: 1px solid blue; */
+    float: left;
+    width: 100%;
+}
+
+.corp > div {
+    padding-top: 6mm;
+    margin-bottom: 2.4cm;
+}
+
+.corp > div > span:nth-child(9) {
+    font-weight: bold;
 }
