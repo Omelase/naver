@@ -1,0 +1,29 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+
+body {
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 4723px;
+  }
+
+#head {
+    border: 1px solid black;
+    min-height: 100px;
+}
+
+#main {
+    border: 1px solid black;
+    min-height: 100px;
+}
+
+#footer {
+    border: 1px solid black;
+    height: 100px;
+}
