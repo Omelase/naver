@@ -279,9 +279,12 @@ textarea {
 .thumb_box {
     border: 1px solid #d1d1d1;
     box-sizing: border-box;
+    text-align: center;
+    display: block;
     float: left;
     width: 124.3px;
     height: 65px;
+    padding: 23px 0 22px 0;
 }
 .themecast_contents_container {
     border: 1px solid rgb(255, 0, 234);
@@ -527,6 +530,73 @@ textarea {
     width: 350px;
     height: 2210px;
 }
+.shop_header{
+    border-bottom: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 350px;
+    height:44px;
+}
+.shop_group_goods {
+    border-bottom: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 348px;
+    height:884px;
+    padding: 55px 8px 20px;
+}
+.shop_control {
+    border: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    
+    xfloat: right;
+    width: 335px;
+    height:29px;
+    
+}
+.shop_goods_list {
+    border: 1px solid rgb(21, 77, 14);
+    box-sizing: border-box;
+    width: 332px;
+    height:762px;
+    margin: 1px -5px 0 0;
+    padding: 7px;
+}
+.goods_item {
+    border: 1px solid rgb(21, 77, 14);
+    box-sizing: border-box;
+    float: left;
+    width: 108px;
+    height:183px;
+    margin: 0 -5px 0 0;
+    list-style: none;
+    padding: auto;
+}
+
+.goods_thumb_box {
+    border: 1px solid rgb(21, 77, 14);
+    box-sizing: border-box;
+    float: left;
+    width: 107.32px;
+    height:146px;
+    text-align: center;
+    padding: 23px;
+}
+
+.goods_thumb_box_image_title {
+    text-align: center;
+}
+
+
+.shop_page {
+    border: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 332px;
+    height:29px;
+    margin: 18px 0 0;
+}
+
+
+
+
 
 #footer {
     position: absolute;
