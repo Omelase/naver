@@ -3,23 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'NanumSquareLight';
-font-family: 'NanumSquare';
-font-family: 'NanumSquareBold';
-font-family: 'NanumSquareExtraBold';
-font-family: 'NanumSquareAcb';
-font-family: 'NanumSquareAceb';
-font-family: 'NanumSquareAcl';
-font-family: 'NanumSquareAcr';
+    font-family: 'NanumSquare';
+    font-family: 'NanumSquareBold';
+    font-family: 'NanumSquareExtraBold';
+    font-family: 'NanumSquareAcb';
+    font-family: 'NanumSquareAceb';
+    font-family: 'NanumSquareAcl';
+    font-family: 'NanumSquareAcr';
 }
-*/
 
-
-body {
+*/ body {
     position: relative;
     min-height: 4723px;
-  }
+}
 
-button, input, select, table, textarea {
+button,
+input,
+select,
+table,
+textarea {
     font-size: 12px;
     line-height: 16px;
     color: #202020;
@@ -29,9 +31,9 @@ button, input, select, table, textarea {
     padding: 0;
     position: relative;
     min-height: 4723px;
-  }
+}
 
-  .wrap-head {
+.wrap-head {
     overflow: hidden;
     height: 49px;
     /* background-color: #21322b; */
@@ -41,13 +43,13 @@ button, input, select, table, textarea {
 }
 
 .wrap-head-banner {
-    
+
     position: relative;
     width: 1130px;
     margin: 0 auto;
 }
 
-.wrap-head-banner > a {
+.wrap-head-banner>a {
     color: inherit;
 }
 
@@ -57,7 +59,7 @@ button, input, select, table, textarea {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
 }
 
 .whale {
@@ -70,7 +72,7 @@ button, input, select, table, textarea {
     background-size: 141px 112px;
     margin-top: -35px;
     float: left;
-    
+
     width: 98px;
     height: 21px;
     /* background-position: 0 -21px; */
@@ -83,7 +85,7 @@ button, input, select, table, textarea {
     height: 1px;
     margin: -1px;
     overflow: hidden;
-}
+}ㄴ
 
 .people {
     background-position: 0 -42px;
@@ -121,11 +123,11 @@ button, input, select, table, textarea {
     margin-top: -47px;
     float: left;
     height: 47px;
-    width:120px;
+    width: 120px;
     text-align: right;
     font-size: 17px;
     line-height: 230%;
-    padding-right:10px;
+    padding-right: 10px;
     background-color: #03bc93;
     border-radius: 30px;
     /* text-align:center; */
@@ -153,11 +155,11 @@ button, input, select, table, textarea {
 .service-group {
     /* background-color: aqua; */
     float: right;
-  
+
 }
 
-.service-group > a {
-        color: inherit;
+.service-group>a {
+    color: inherit;
 }
 
 
@@ -171,7 +173,7 @@ button, input, select, table, textarea {
 }
 
 
-#startpage{ 
+#startpage {
     float: right;
     /* background-color: white; */
     /* margin-right: 600px; */
@@ -180,7 +182,8 @@ button, input, select, table, textarea {
     /* display:inline; */
 
 }
-#jrnaver{
+
+#jrnaver {
     float: right;
     /* background-color: white; */
     /* box-sizing: border-box; */
@@ -189,24 +192,24 @@ button, input, select, table, textarea {
     /* margin-right: 10px; */
     /* margin-top: 0px; */
     /* display:inline; */
-    
-}    
 
-#happybean{
+}
+
+#happybean {
     float: right;
     /* position:relative; */
     /* margin-right: 10px; */
     /* display:inline; */
-    
+
 }
 
 #state {
     display: inline-block;
-    height: 500px; 
-    width: 500px; 
+    height: 500px;
+    width: 500px;
     background-image: url('./image/naver.png');
     background-repeat: no-repeat;
-    background-position: 20px -1px; 
+    background-position: 20px -1px;
     background-size: 220px;
     box-sizing: border-box;
     position: relative;
@@ -230,6 +233,7 @@ button, input, select, table, textarea {
     position: relative;
 
 }
+
 .int_right {
     border: 1px solid rgb(255, 0, 0);
     width: 350px;
@@ -239,14 +243,16 @@ button, input, select, table, textarea {
     position: relative;
     float: right;
 }
+
 .img {
     border: 0px solid blue;
     box-sizing: border-box;
     display: block;
     width: 750px;
     height: 135px;
-    
+
 }
+
 .news_stant {
     border: 1px solid blue;
     box-sizing: border-box;
@@ -259,8 +265,9 @@ button, input, select, table, textarea {
     box-sizing: border-box;
     width: 750px;
     height: 49px;
-    padding:12px 15px 11px;
+    padding: 12px 15px 11px;
 }
+
 .news_stant_title {
     border: 1px solid rgb(25, 174, 254);
     box-sizing: border-box;
@@ -268,12 +275,14 @@ button, input, select, table, textarea {
     height: 56px;
     padding: 22px 0 16px;
 }
+
 .news_stant_view {
     border: 1px solid rgb(25, 174, 254);
     box-sizing: border-box;
     width: 750px;
-    height:262px;
+    height: 262px;
 }
+
 .thumb_box {
     border: 1px solid rgb(25, 174, 254);
     box-sizing: border-box;
@@ -281,58 +290,64 @@ button, input, select, table, textarea {
     width: 124.4px;
     height: 65px;
 }
+
 .themecast_contents_container {
     border: 1px solid rgb(255, 0, 234);
     box-sizing: border-box;
     width: 750px;
-    height:2555px;
+    height: 2555px;
     padding: 35px 0 27px;
 }
+
 .themecast_contents {
     border: 1px solid rgb(255, 0, 234);
     box-sizing: border-box;
     width: 750px;
-    height:2555px;
+    height: 2555px;
 }
 
-.themecast_header{ 
+.themecast_header {
     border: 1px solid rgb(255, 0, 234);
     box-sizing: border-box;
     width: 750px;
-    height:83px;
+    height: 83px;
 }
+
 .group_title {
     border: 0px solid rgb(255, 0, 234);
     box-sizing: border-box;
     width: 750px;
-    height:34px;
+    height: 34px;
     padding: 0 0 17px;
 }
+
 .category_groups {
     border: 1px solid rgb(255, 0, 234);
     box-sizing: border-box;
     width: 750px;
-    height:49px;
+    height: 49px;
 }
+
 .category_item {
     list-style: none;
     float: left;
 }
+
 .themecast_container {
     border: 1px solid rgb(255, 0, 234);
     box-sizing: border-box;
     width: 750px;
-    height:2368px;
+    height: 2368px;
 }
 
 .group_topstory {
     width: 750px;
-    height:359px;
+    height: 359px;
 }
 
 .group_theme {
     width: 750px;
-    height:810px;
+    height: 810px;
 }
 
 /* left */
@@ -341,25 +356,28 @@ button, input, select, table, textarea {
     border: 1px solid rgb(26, 255, 0);
     box-sizing: border-box;
     width: 350px;
-    height:135px;
+    height: 135px;
 }
+
 .timesquare {
     border: 1px solid rgb(26, 255, 0);
     box-sizing: border-box;
     width: 350px;
-    height:49px;
+    height: 49px;
 }
+
 .branding {
     border: 1px solid rgb(26, 255, 0);
     box-sizing: border-box;
     width: 350px;
-    height:200px;
+    height: 200px;
 }
+
 .shopcast {
     border: 1px solid rgb(26, 255, 0);
     box-sizing: border-box;
     width: 350px;
-    height:1809px;
+    height: 1809px;
 }
 
 #footer {
@@ -382,7 +400,7 @@ a {
 
 #foot_center {
     position: absolute;
-    left:80mm;
+    left: 80mm;
     width: 30cm;
 
 }
@@ -394,21 +412,21 @@ a {
     padding: 20px;
 }
 
-.AD > .left {
+.AD>.left {
 
     float: left;
     min-width: 33.33%;
     position: relative;
 }
 
-.AD > .center {
+.AD>.center {
 
     float: left;
     min-width: 33.33%;
     position: relative;
 }
 
-.AD > .right {
+.AD>.right {
 
     float: right;
     min-width: 33.33%;
@@ -438,7 +456,7 @@ a {
     padding: 5px;
 }
 
-.notice > #nt_left {
+.notice>#nt_left {
     float: left;
 }
 
@@ -494,7 +512,7 @@ a {
     margin-right: 5px;
 }
 
-.right-img > img {
+.right-img>img {
     width: 40px;
     float: left;
 }
@@ -505,11 +523,11 @@ a {
     width: 100%;
 }
 
-.corp > div {
+.corp>div {
     padding-top: 6mm;
     margin-bottom: 2.4cm;
 }
 
-.corp > div > span:nth-child(9) {
+.corp>div>span:nth-child(9) {
     font-weight: bold;
 }
