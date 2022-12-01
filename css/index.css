@@ -396,7 +396,7 @@ textarea {
 
 /* left */
 .int_right {
-    border: 1px solid rgb(255, 0, 0);
+    border: px solid rgb(255, 0, 0);
     width: 350px;
     height: 2700px;
 
@@ -525,54 +525,62 @@ textarea {
 }
 
 .shopcast {
-    border: 1px solid rgb(26, 255, 0);
+    border: 0px solid rgb(218, 219, 218);
     box-sizing: border-box;
     width: 350px;
     height: 2210px;
 }
-.shop_header{
-    border-bottom: 1px solid rgb(26, 255, 0);
+.xshop_header{
+    border-bottom: 4px solid rgb(218, 219, 218);
     box-sizing: border-box;
     width: 350px;
     height:44px;
 }
 .shop_group_goods {
-    border-bottom: 1px solid rgb(26, 255, 0);
+    border-bottom: 0px solid rgb(0, 0, 0);
     box-sizing: border-box;
     width: 348px;
     height:884px;
-    padding: 55px 8px 20px;
+    padding: 25px 8px 20px;
+}
+.shop_group_goods_link {
+    box-sizing: border-box;
+    xlist-style: none;
+    text-align: center;
+    float: left;
+    margin:12px 28px;
 }
 .shop_control {
-    border: 1px solid rgb(26, 255, 0);
+    border: 1px solid rgb(218, 219, 218);
     box-sizing: border-box;
-    
+    margin-top: 40px;
     xfloat: right;
+    text-align: right;
     width: 335px;
     height:29px;
     
 }
 .shop_goods_list {
-    border: 1px solid rgb(21, 77, 14);
+    border: 5px solid rgb(218, 219, 218);
     box-sizing: border-box;
-    width: 332px;
+    width: 350px;
     height:762px;
-    margin: 1px -5px 0 0;
+    margin: 1px -5px 0 -10px;
     padding: 7px;
 }
 .goods_item {
-    border: 1px solid rgb(21, 77, 14);
+    border: 0px solid rgb(218, 219, 218);
     box-sizing: border-box;
     float: left;
     width: 108px;
     height:183px;
-    margin: 2px 20px;
+    margin: 2px 25px;
     list-style: none;
     padding: auto;
 }
 
 .goods_thumb_box {
-    border: 1px solid rgb(21, 77, 14);
+    border: 1px solid rgb(218, 219, 218);
     box-sizing: border-box;
     float: left;
     width: 107.32px;
@@ -587,7 +595,7 @@ textarea {
 
 
 .shop_page {
-    border: 1px solid rgb(26, 255, 0);
+    border: 1px solid rgb(218, 219, 218);
     box-sizing: border-box;
     width: 332px;
     height:29px;
