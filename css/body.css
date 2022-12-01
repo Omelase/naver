@@ -139,3 +139,9 @@
     width: 350px;
     height:1809px;
 }
+.shop_header{
+    border-bottom: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 350px;
+    height:44px;
+}
