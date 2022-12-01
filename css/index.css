@@ -39,6 +39,16 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+#ncorp {
+    font-weight: bold;
+    color: black;
+}
+
 #foot_center {
     position: absolute;
     left:80mm;
