@@ -220,9 +220,11 @@ textarea {
 
 
 #main {
-    border: 1px solid black;
+    width: 1300px;
     min-height: 100px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .int_left {
@@ -280,11 +282,23 @@ textarea {
 }
 
 .news_stant_title {
-    border: 1px solid rgb(25, 174, 254);
+    display: inline-block;
+
     box-sizing: border-box;
     width: 750px;
     height: 56px;
-    padding: 22px 16px;
+    padding: 16px;
+}
+
+.news_stant_title a {
+    display: inline-block;
+    width: 90px;
+
+}
+
+.news_stant_data_btn_short {
+    display: inline-block;
+    float: right;
 }
 
 .news_stant_view {
@@ -306,11 +320,15 @@ textarea {
     padding: 23px 0 22px 0;
 }
 
+.thumb_box img {
+    width: 70px;
+}
+
 .themecast_contents_container {
 
     box-sizing: border-box;
     width: 750px;
-    height: 2555px;
+    height: 1768px;
     padding: 35px 0 27px;
 }
 
@@ -343,7 +361,7 @@ textarea {
 
     box-sizing: border-box;
     width: 750px;
-    height: 2555px;
+    height: 2055px;
 }
 
 .themecast_header {
@@ -374,7 +392,7 @@ textarea {
 .category_item {
     list-style: none;
     float: left;
-    padding: 15px 27px;
+    padding: 12px 26px;
     border: 1px solid rgb(218, 219, 218);
     text-align: center;
 }
@@ -382,7 +400,7 @@ textarea {
 .themecast_container {
     box-sizing: border-box;
     width: 750px;
-    height: 2368px;
+    height: 1768px;
     font-size: 14px;
 }
 
@@ -441,9 +459,8 @@ textarea {
 
 /* left */
 .int_right {
-
     width: 350px;
-    height: 2700px;
+    height: 1450px;
 
     box-sizing: border-box;
     display: inline-block;
@@ -452,7 +469,7 @@ textarea {
 }
 
 .account_login {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 10px;
     border: 1px solid rgb(218, 219, 218);
     background-color: rgb(246, 247, 246);
@@ -648,6 +665,16 @@ textarea {
     height: 146px;
     text-align: center;
     padding: 23px;
+    position: relative;
+}
+
+.goods_thumb_box_image {
+    border: 1px solid black;
+    width: 104px;
+    height: 143.5px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .goods_thumb_box_image_title {
@@ -665,7 +692,7 @@ textarea {
 
 #footer {
     position: absolute;
-    min-width: 100%;
+    width: 100%;
     min-height: 355px;
     font-size: 0.7em;
     background-color: rgb(245, 245, 245);
@@ -682,9 +709,10 @@ a {
 }
 
 #foot_center {
-    position: absolute;
     left: 80mm;
     width: 30cm;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
