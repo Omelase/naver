@@ -1,0 +1,141 @@
+.int_left {
+    border: 1px solid rgb(255, 0, 0);
+    width: 750px;
+    height: 2695px;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+
+}
+.int_right {
+    border: 1px solid rgb(255, 0, 0);
+    width: 350px;
+    height: 2232px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+.img {
+    border: 0px solid blue;
+    box-sizing: border-box;
+    display: block;
+    width: 750px;
+    height: 135px;
+    
+}
+.news_stant {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    width: 750px;
+    height: 367px;
+}
+
+.news_stant_herader {
+    border: 1px solid rgb(25, 174, 254);
+    box-sizing: border-box;
+    width: 750px;
+    height: 49px;
+    padding:12px 15px 11px;
+}
+.news_stant_title {
+    border: 1px solid rgb(25, 174, 254);
+    box-sizing: border-box;
+    width: 750px;
+    height: 56px;
+    padding: 22px 0 16px;
+}
+.news_stant_view {
+    border: 1px solid rgb(25, 174, 254);
+    box-sizing: border-box;
+    width: 750px;
+    height:262px;
+}
+.thumb_box {
+    border: 1px solid rgb(25, 174, 254);
+    box-sizing: border-box;
+    float: left;
+    width: 124.4px;
+    height: 65px;
+}
+.themecast_contents_container {
+    border: 1px solid rgb(255, 0, 234);
+    box-sizing: border-box;
+    width: 750px;
+    height:2555px;
+    padding: 35px 0 27px;
+}
+.themecast_contents {
+    border: 1px solid rgb(255, 0, 234);
+    box-sizing: border-box;
+    width: 750px;
+    height:2555px;
+}
+
+.themecast_header{ 
+    border: 1px solid rgb(255, 0, 234);
+    box-sizing: border-box;
+    width: 750px;
+    height:83px;
+}
+.group_title {
+    border: 0px solid rgb(255, 0, 234);
+    box-sizing: border-box;
+    width: 750px;
+    height:34px;
+    padding: 0 0 17px;
+}
+.category_groups {
+    border: 1px solid rgb(255, 0, 234);
+    box-sizing: border-box;
+    width: 750px;
+    height:49px;
+}
+.category_item {
+    list-style: none;
+    float: left;
+}
+.themecast_container {
+    border: 1px solid rgb(255, 0, 234);
+    box-sizing: border-box;
+    width: 750px;
+    height:2368px;
+}
+
+.group_topstory {
+    width: 750px;
+    height:359px;
+}
+
+.group_theme {
+    width: 750px;
+    height:810px;
+}
+
+/* left */
+
+.account_login {
+    border: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 350px;
+    height:135px;
+}
+.timesquare {
+    border: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 350px;
+    height:49px;
+}
+.branding {
+    border: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 350px;
+    height:200px;
+}
+.shopcast {
+    border: 1px solid rgb(26, 255, 0);
+    box-sizing: border-box;
+    width: 350px;
+    height:1809px;
+}
