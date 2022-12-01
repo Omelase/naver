@@ -85,9 +85,9 @@ textarea {
     height: 1px;
     margin: -1px;
     overflow: hidden;
-}ㄴ
+}
 
-.people {
+ㄴ .people {
     background-position: 0 -42px;
     display: inline-block;
     content: "";
@@ -175,6 +175,7 @@ textarea {
 
 #startpage {
     float: right;
+    background-color: #03bc93;
     /* background-color: white; */
     /* margin-right: 600px; */
     /* position: relative; */
@@ -227,30 +228,25 @@ textarea {
     border: 1px solid rgb(255, 0, 0);
     width: 750px;
     height: 2695px;
-    margin: 0;
+    margin-left: 65mm;
     box-sizing: border-box;
     display: inline-block;
     position: relative;
 
 }
 
-.int_right {
-    border: 1px solid rgb(255, 0, 0);
-    width: 350px;
-    height: 2232px;
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
-    float: right;
-}
 
 .img {
-    border: 0px solid blue;
+    border: 1px solid rgb(218, 219, 218);
     box-sizing: border-box;
     display: block;
     width: 750px;
     height: 135px;
 
+}
+
+.img2 {
+    width: 750px;
 }
 
 .news_stant {
@@ -351,33 +347,128 @@ textarea {
 }
 
 /* left */
+.int_right {
+    border: 1px solid rgb(255, 0, 0);
+    width: 350px;
+    height: 2700px;
+
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    float: right;
+}
 
 .account_login {
-    border: 1px solid rgb(26, 255, 0);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(218, 219, 218);
+    background-color: rgb(246, 247, 246);
     box-sizing: border-box;
     width: 350px;
     height: 135px;
+    font-size: 0.8em;
+    font-weight: 100;
+    position: relative;
+}
+
+.nl {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+
+.safe {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    color: rgb(126, 126, 126);
+}
+
+.nl {
+    position: absolute;
+    left: 14px;
+}
+
+.nip {
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+}
+
+.nip2 {
+    position: relative;
+    top: -5px;
+    color: rgb(82, 82, 83);
+}
+
+.nid:hover {
+    text-decoration: underline;
+}
+
+.npw:hover {
+    text-decoration: underline;
+}
+
+.nlr {
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+
+.nrg:hover {
+    text-decoration: underline;
+}
+
+.nrg {
+    position: relative;
+    top: -5px;
+    color: rgb(82, 82, 83);
 }
 
 .timesquare {
-    border: 1px solid rgb(26, 255, 0);
+    margin-bottom: 10px;
+    border: 1px solid rgb(218, 219, 218);
     box-sizing: border-box;
     width: 350px;
     height: 49px;
+    position: relative;
+}
+
+.corona1 {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.corona3 {
+    color: rgb(82, 82, 83);
+    font-weight: 100;
+    font-size: small;
+    position: relative;
+    bottom: 9px;
+}
+
+.corona3:hover {
+    text-decoration: underline;
 }
 
 .branding {
-    border: 1px solid rgb(26, 255, 0);
+    margin-bottom: 30px;
+    border: 1px solid rgb(218, 219, 218);
     box-sizing: border-box;
     width: 350px;
     height: 200px;
+}
+
+.dyson2 {
+    width: 340px;
 }
 
 .shopcast {
     border: 1px solid rgb(26, 255, 0);
     box-sizing: border-box;
     width: 350px;
-    height: 1809px;
+    height: 2210px;
 }
 
 #footer {
